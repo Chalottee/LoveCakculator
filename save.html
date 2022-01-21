@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="127.0.0.1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>save</title>
+	<style >
+		#image {width: 400px; height: 330px; background-image:"./image1.jpg"; background-repeat: repeat; background-size: 400px 330px;animation: haha 4s linear 0s infinite alternate;}
+		@keyframes haha{0%{position: relative; left: 0px; top: 0px;}
+						100%{position: relative; left: 88%; top: 0px;}}
+		body{background: url(./bg.jpg) no-repeat center center; background-size: cover; background-attachment: fixed; }
+	</style>
+</head>
+<body>
+
+	<h1 align="center" style="color: hotpink;">Love Calculator</h1>
+
+	<form method="get" action="./save.php" >
+    <div style="float: left;">
+    <p align="center">First Name:</p>
+	<p align="center"><input type="text" name="fname" ></p>
+	<p align="center">Age:</p>
+	<p align="center"><input type="text" name="fage"></p>
+	<p align="center">Constellation:</p>
+	<p align="center"><input type="text" name="fconstellation"></p>
+	<p align="center">Blood Type:</p>
+	<p align="center"><input type="text" name="fbloodtype"></p>
+    </div>
+
+    <div style="float: right;">
+	<p align="center">Second Name:</p>
+	<p align="center"><input type="text" name="sname" ></p>
+	<p align="center">Age:</p>
+	<p align="center"><input type="text" name="sage"></p>
+	<p align="center">Constellation:</p>
+	<p align="center"><input type="text" name="sconstellation"></p>
+	<p align="center">Blood Type:</p>
+	<p align="center"><input type="text" name="sbloodtype"></p>
+	</div>
+
+
+	<div id="image">
+		<img src="./image1.jpg" />
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p align="center"><input type="submit" value="save"></p>
+	</form>
+
+	
+</form>
+</body>
+</html>
